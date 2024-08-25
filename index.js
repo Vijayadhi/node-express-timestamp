@@ -42,7 +42,7 @@ app.get('/', (req, res) => {
 
   fs.writeFile(filepath, timestamp, (err) => {
     if (err) {
-      return res.status(500).json({ message: 'Error creating file', error: err });
+      return res.status(500).json({ message: `Error creating file`, error: err });
     }
 
     // After creating the file, list all text files in the folder
@@ -53,7 +53,7 @@ app.get('/', (req, res) => {
 
       // Filter only .txt files
       const txtFiles = files.filter(file => path.extname(file) === '.txt');
-      res.json({ message: 'File created successfully', filename, files: txtFiles });
+      res.json({ message: 'File created successfully', filename, files: txtFiles, postmanDocumentation: "https://documenter.getpostman.com/view/24751227/2sAXjF9Ev1" });
     });
   });
 
