@@ -26,6 +26,10 @@ This project demonstrates a simple Node.js application using Express to create a
   ├── README.md            # Project documentation
 ```
 
+## Testing
+-- You Can test and use  our API from the **`https://node-express-timestamp.onrender.com`**
+
+
 ## Prerequisites
 
 - **Node.js**: Make sure Node.js is installed on your machine.
@@ -36,7 +40,7 @@ This project demonstrates a simple Node.js application using Express to create a
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-repo/nodejs-file-system-api.git
+   git clone https://github.com/Vijayadhi/nodejs-filesystem.git
    cd nodejs-file-system-api
    ```
 
